@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as jsonLogic from 'json-logic-js';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'jsonlogic-examiner';
+  rule: string= '';
+  data: string = '';
+  result: string = '';
+
+  dataChange(data: string) {
+    this.data = data;
+  }
+
+  ruleChange(rule: string) {
+    this.rule = rule;
+  }
+
+  applyRule() {
+    this.result = jsonLogic.apply(JSON.parse(this.rule), JSON.parse(this.data));
+  }
 }
