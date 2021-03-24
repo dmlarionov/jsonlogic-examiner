@@ -2,8 +2,10 @@
 
 This project was made in a quick way to test [JsonLogic](https://jsonlogic.com/) rules because [official playgound](https://jsonlogic.com/play.html) doesn't work behind some corporate firewalls since [RawGit](https://rawgit.com/) become associated with malware.
 
-Visit https://dmlarionov.github.io/jsonlogic-examiner/
+Please, visit: https://dmlarionov.github.io/jsonlogic-examiner/ .
 
-## Development server
+## Contribution
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You'll need node.js, npm, angular. See https://angular.io/guide/setup-local#install-the-angular-cli . Run `ng serve --open` for a dev server.
+
+After your pull-request or branch is merged into the master branch GitHub Action [Angular Deploy gh-pages](https://github.com/marketplace/actions/angular-deploy-gh-pages-actions) deploy it as [GitHub Page](https://dmlarionov.github.io/jsonlogic-examiner).
