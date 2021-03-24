@@ -1,4 +1,6 @@
-<app-jsonlogic-rule-input (changeEvent)="ruleChange($event)"></app-jsonlogic-rule-input>
-<app-jsonlogic-data-input (changeEvent)="dataChange($event)"></app-jsonlogic-data-input>
-<button (click)="applyRule()" style="display: block; font-size: 1.5em;">Process..</button>
-<app-jsonlogic-result-output [result]="result"></app-jsonlogic-result-output>
+<div style="padding: 0 10%;">
+    <app-jsonlogic-rule-input (changeEvent)="ruleChange($event)"></app-jsonlogic-rule-input>
+    <app-jsonlogic-data-input (changeEvent)="dataChange($event)"></app-jsonlogic-data-input>
+    <button (click)="applyRule()" style="display: block; font-size: 1.5em;">Process..</button>
+    <app-jsonlogic-result-output [result]="result"></app-jsonlogic-result-output>
+</div>
