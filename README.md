@@ -1,6 +1,6 @@
 # JsonlogicExaminer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+This project was made in a quick way to test [JsonLogic](https://jsonlogic.com/) rules because [official playgound](https://jsonlogic.com/play.html) doesn't work behind some corporate firewalls since [RawGit](https://rawgit.com/) become associated with malware.
 
 ## Development server
 
