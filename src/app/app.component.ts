@@ -13,10 +13,12 @@ export class AppComponent {
 
   dataChange(data: string) {
     this.data = data;
+    this.result = '';
   }
 
   ruleChange(rule: string) {
     this.rule = rule;
+    this.result = '';
   }
 
   applyRule() {
